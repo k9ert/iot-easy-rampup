@@ -1,6 +1,3 @@
--- shamelessly copied
--- https://gist.github.com/Manawyrm/ead702a90667593f7f76
-
 wifi.setmode(wifi.STATION)
 wifi.sta.config("somenetwork","somePassword")
 wifi.sta.connect()
@@ -9,12 +6,13 @@ tmr.alarm(0, 1000, 1, function()
    if wifi.sta.getip()==nil then
       print("connecting to AP...")
    else
-      print('ip: ',wifi.sta.getip())
+      ip, nm, gw=wifi.sta.getip()
+      print("\nIP Info:\nIP Address: "..ip.." \nNetmask: "..nm.." \nGateway Addr: "..gw.."\n")
       tmr.stop(0)
       telnetServer()
 
---      require("main")
---      main()
+      require("main")
+      main()
    end
 end)
 
