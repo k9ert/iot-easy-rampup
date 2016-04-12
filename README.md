@@ -9,6 +9,6 @@ All the files can be find on Tinkercad but also in the 3d-printing folder.
 
 Here are some photos:
 
-![GitHub Logo](3D-printing/photo1.png)
-![GitHub Logo](3D-printing/photo2.png)
-![GitHub Logo](3D-printing/photo3.png)
+![GitHub Logo](https://raw.githubusercontent.com/k9ert/luatemp2graphite/master/3d-printing/photo1.png)
+![GitHub Logo](https://raw.githubusercontent.com/k9ert/luatemp2graphite/master/3d-printing/photo2.png)
+![GitHub Logo](https://raw.githubusercontent.com/k9ert/luatemp2graphite/master/3d-printing/photo3.png)
