@@ -1,5 +1,8 @@
 # luatemp2graphite
-Some lua-scripting to push ds18b20-temperature to graphite
+Some lua-scripting to push ds18b20-temperature to graphite.
+If you don't have a graphite available, easily boot one on [docker-cloud](https://cloud.docker.com/)
+with this [docker-compose-file](https://github.com/k9ert/docker-weather-carbon-feeder/blob/master/docker-cloud.yml).
+
 
 # probably incomplete parts-list
 
