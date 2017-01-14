@@ -1,3 +1,6 @@
+Some iot-experiments. Nothing special. More a scratch/notepad than
+anything else.
+
 # luatemp2graphite
 Some lua-scripting to push ds18b20-temperature to graphite.
 If you don't have a graphite available, easily boot one on [docker-cloud](https://cloud.docker.com/)
@@ -20,6 +23,6 @@ All the files can be find on Tinkercad but also in the 3d-printing folder.
 
 Here are some photos:
 
-![GitHub Logo](https://raw.githubusercontent.com/k9ert/iot-easy-rampup/master/esp8266-3d-printed-socket/photo1.png)
-![GitHub Logo](https://raw.githubusercontent.com/k9ert/iot-easy-rampup/master/esp8266-3d-printed-socket/photo2.png)
-![GitHub Logo](https://raw.githubusercontent.com/k9ert/iot-easy-rampup/master/esp8266-3d-printed-socket/photo3.png)
+![GitHub Logo](https://raw.githubusercontent.com/k9ert/iot-easy-rampup/master/iteration-1-plain-esp8266/esp8266-3d-printed-socket/photo1.png)
+![GitHub Logo](https://raw.githubusercontent.com/k9ert/iot-easy-rampup/master/iteration-1-plain-esp8266/esp8266-3d-printed-socket/photo2.png)
+![GitHub Logo](https://raw.githubusercontent.com/k9ert/iot-easy-rampup/master/iteration-1-plain-esp8266/esp8266-3d-printed-socket/photo3.png)
