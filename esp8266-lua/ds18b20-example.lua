@@ -14,9 +14,23 @@ if (addrs ~= nil) then
 end
 
 -- Just read temperature
-print("Temperature: "..t.read().."'C")
+temp = t.read()
+print("Temperature: "..temp.."'C")
+
+
+cu2=net.createConnection(net.TCP,0)
+
+cu2:on("connection", function() 
+    print("connected") 
+    text = "zfs.es.test.temp "..temp.."\r\n"
+    print(text)
+    cu2:send(text)
+    cu2:close()
+  end)
+cu2:connect(2003, "192.168.178.45")
 
 -- Don't forget to release it after use
 t = nil
 ds18b20 = nil
 package.loaded["ds18b20"]=nil
+
